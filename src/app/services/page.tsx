@@ -1,43 +1,44 @@
 "use client";
 
 import { motion } from "framer-motion";
+import Link from "next/link";
 import ServiceCard from "@/components/ServiceCard";
 
 const allServices = [
   {
     title: "Casamentos",
     description: "Decoração de casamento elegante e intemporal, adaptada à sua história de amor e visão única.",
-    image: "https://images.unsplash.com/photo-1511795409834-ef04bbd61622?q=80&w=2069&auto=format&fit=crop",
+    image: "/media/services/casamentos/photos/wedding_cover.JPG",
     href: "/services/casamentos"
   },
   {
     title: "Catering",
     description: "Experiências culinárias excepcionais e apresentações de bebidas para todas as ocasiões.",
-    image: "https://images.unsplash.com/photo-1544145945-f904253d0c7b?q=80&w=1974&auto=format&fit=crop",
+    image: "/media/services/catering/photos/catering_cover.JPG",
     href: "/services/catering"
   },
   {
     title: "Corporativos",
     description: "Design de eventos profissional e focado na marca que deixa uma impressão duradoura.",
-    image: "https://images.unsplash.com/photo-1505373877841-8d25f7d46678?q=80&w=2012&auto=format&fit=crop",
+    image: "/media/services/corporativos/photos/corporative_cover.JPG",
     href: "/services/corporativos"
   },
   {
     title: "Festas",
     description: "Encontros sociais vibrantes e dinâmicos projetados para celebrar os marcos da vida.",
-    image: "https://images.unsplash.com/photo-1533174000228-db3f74dce54e?q=80&w=2074&auto=format&fit=crop",
+    image: "/media/services/festas/photos/parties_cover.JPG",
     href: "/services/festas"
   },
   {
     title: "Formações",
     description: "Eventos formais sofisticados e graduações que celebram conquistas e legado.",
-    image: "https://images.unsplash.com/photo-1523050854058-8df90110c9f1?q=80&w=2070&auto=format&fit=crop",
+    image: "/media/services/formacoes/photos/formacoes_cover.JPG",
     href: "/services/formacoes"
   },
   {
     title: "Locação",
     description: "Soluções premium de aluguer de eventos com mobiliário curado e itens de decoração exclusivos.",
-    image: "https://images.unsplash.com/photo-1470225620780-dba8ba36b745?q=80&w=2070&auto=format&fit=crop",
+    image: "/media/services/locacao/photos/lococao_cover.JPG",
     href: "/services/locacao"
   }
 ];
@@ -79,12 +80,14 @@ export default function ServicesPage() {
         <p className="text-foreground/60 max-w-2xl mx-auto mb-12">
           Contacte a nossa equipa especializada para adaptar um serviço especificamente às necessidades únicas do seu evento.
         </p>
-        <motion.button
-          whileHover={{ scale: 1.05 }}
-          className="px-10 py-4 liquid-glass border border-white/20 text-gold uppercase text-xs font-bold tracking-widest transition-all duration-300"
-        >
-          Solicitar Orçamento
-        </motion.button>
+        <Link href="/contact">
+          <motion.button
+            whileHover={{ scale: 1.05 }}
+            className="px-10 py-4 liquid-glass border border-white/20 text-gold uppercase text-xs font-bold tracking-widest transition-all duration-300 cursor-pointer"
+          >
+            Solicitar Orçamento
+          </motion.button>
+        </Link>
       </section>
     </div>
   );

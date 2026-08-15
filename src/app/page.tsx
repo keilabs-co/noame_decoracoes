@@ -23,12 +23,12 @@ export default function Home() {
   ];
 
   const masterpieces = [
-    { title: "Decoração de Palco", img: "https://images.unsplash.com/photo-1519225421980-715cb0215aed?q=80&w=2070" },
-    { title: "Decoração Mandap", img: "https://images.unsplash.com/photo-1545622783-05b1c5cd70eb?q=80&w=2070" },
-    { title: "Lapelas (Boutonniers)", img: "https://images.unsplash.com/photo-1623055416043-43f11d10ca1c?q=80&w=2070" },
-    { title: "Buquês de Noiva", img: "https://images.unsplash.com/photo-1561571994-3f61c114d7a8?q=80&w=2070" },
-    { title: "Decoração de Pedido", img: "https://images.unsplash.com/photo-1521199343996-5f111812a647?q=80&w=2070" },
-    { title: "Decoração de Igreja", img: "https://images.unsplash.com/photo-1515934751635-c81c6bc9a2d8?q=80&w=2070" }
+    { title: "Casamentos Elegantes", img: "/media/services/casamentos/photos/wedding_cover.JPG" },
+    { title: "Catering & Gastronomia", img: "/media/services/catering/photos/catering_cover.JPG" },
+    { title: "Eventos Corporativos", img: "/media/services/corporativos/photos/corporative_cover.JPG" },
+    { title: "Festas & Celebrações", img: "/media/services/festas/photos/parties_cover.JPG" },
+    { title: "Formações & Graduações", img: "/media/services/formacoes/photos/formacoes_cover.JPG" },
+    { title: "Locação de Equipamentos", img: "/media/services/locacao/photos/lococao_cover.JPG" }
   ];
 
   const howItWorks = [

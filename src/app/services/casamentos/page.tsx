@@ -9,33 +9,33 @@ import ServiceDetailTemplate from "@/components/ServiceDetailTemplate";
  */
 export default function CasamentosPage() {
   const selectionImages = [
-    "https://images.pexels.com/photos/169189/pexels-photo-169189.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-    "https://images.pexels.com/photos/2253870/pexels-photo-2253870.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-    "https://images.pexels.com/photos/3356748/pexels-photo-3356748.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-    "https://images.pexels.com/photos/2306281/pexels-photo-2306281.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+    "/media/services/casamentos/photos/IMG_1079.JPG",
+    "/media/services/casamentos/photos/IMG_1080.JPG",
+    "/media/services/casamentos/photos/IMG_1081.JPG",
+    "/media/services/casamentos/photos/IMG_1083.JPG"
   ];
 
   const marqueeImages = [
-    "https://images.pexels.com/photos/2253870/pexels-photo-2253870.jpeg?auto=compress&cs=tinysrgb&w=600",
-    "https://images.pexels.com/photos/169189/pexels-photo-169189.jpeg?auto=compress&cs=tinysrgb&w=600",
-    "https://images.pexels.com/photos/3356748/pexels-photo-3356748.jpeg?auto=compress&cs=tinysrgb&w=600",
-    "https://images.pexels.com/photos/2306281/pexels-photo-2306281.jpeg?auto=compress&cs=tinysrgb&w=600",
-    "https://images.pexels.com/photos/1045541/pexels-photo-1045541.jpeg?auto=compress&cs=tinysrgb&w=600",
-    "https://images.pexels.com/photos/2959192/pexels-photo-2959192.jpeg?auto=compress&cs=tinysrgb&w=600",
-    "https://images.pexels.com/photos/2253844/pexels-photo-2253844.jpeg?auto=compress&cs=tinysrgb&w=600",
-    "https://images.pexels.com/photos/1785493/pexels-photo-1785493.jpeg?auto=compress&cs=tinysrgb&w=600"
+    "/media/services/casamentos/photos/wedding_cover.JPG",
+    "/media/services/casamentos/photos/IMG_1087.JPG",
+    "/media/services/casamentos/photos/IMG_1089.JPG",
+    "/media/services/casamentos/photos/IMG_1091.JPG",
+    "/media/services/casamentos/photos/IMG_1092.JPG",
+    "/media/services/casamentos/photos/IMG_1094.JPG",
+    "/media/services/casamentos/photos/IMG_1095.JPG",
+    "/media/services/casamentos/photos/IMG_4419.JPG"
   ];
 
   const moreThanDecorSections = [
     {
       title: "Curadoria Floral Artística",
       description: "Não fornecemos apenas flores; fazemos a curadoria de arte viva que emoldura a sua história de amor com elegância e beleza natural inigualáveis.",
-      image: "https://images.pexels.com/photos/169189/pexels-photo-169189.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+      image: "/media/services/casamentos/photos/IMG_4420.JPG"
     },
     {
       title: "Iluminação Atmosférica",
       description: "Desde caminhos suaves iluminados por velas até grandes destaques arquitetônicos, o nosso design de iluminação cria o ambiente perfeito para a sua união.",
-      image: "https://images.pexels.com/photos/1045541/pexels-photo-1045541.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+      image: "/media/services/casamentos/photos/IMG_4422.JPG"
     }
   ];
 

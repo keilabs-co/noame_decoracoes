@@ -7,33 +7,33 @@ import ServiceDetailTemplate from "@/components/ServiceDetailTemplate";
  */
 export default function FestasPage() {
   const selectionImages = [
-    "https://images.pexels.com/photos/1105666/pexels-photo-1105666.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-    "https://images.pexels.com/photos/2263436/pexels-photo-2263436.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-    "https://images.pexels.com/photos/154147/pexels-photo-154147.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-    "https://images.pexels.com/photos/167635/pexels-photo-167635.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+    "/media/services/festas/photos/ABDQ9605.JPG",
+    "/media/services/festas/photos/ACXO2170.JPG",
+    "/media/services/festas/photos/GKZI4087.JPG",
+    "/media/services/festas/photos/IMG_1116.JPG"
   ];
 
   const marqueeImages = [
-    "https://images.pexels.com/photos/1105666/pexels-photo-1105666.jpeg?auto=compress&cs=tinysrgb&w=600",
-    "https://images.pexels.com/photos/2263436/pexels-photo-2263436.jpeg?auto=compress&cs=tinysrgb&w=600",
-    "https://images.pexels.com/photos/154147/pexels-photo-154147.jpeg?auto=compress&cs=tinysrgb&w=600",
-    "https://images.pexels.com/photos/167635/pexels-photo-167635.jpeg?auto=compress&cs=tinysrgb&w=600",
-    "https://images.pexels.com/photos/2324423/pexels-photo-2324423.jpeg?auto=compress&cs=tinysrgb&w=600",
-    "https://images.pexels.com/photos/261327/pexels-photo-261327.jpeg?auto=compress&cs=tinysrgb&w=600",
-    "https://images.pexels.com/photos/787961/pexels-photo-787961.jpeg?auto=compress&cs=tinysrgb&w=600",
-    "https://images.pexels.com/photos/1389460/pexels-photo-1389460.jpeg?auto=compress&cs=tinysrgb&w=600"
+    "/media/services/festas/photos/parties_cover.JPG",
+    "/media/services/festas/photos/ABDQ9605.JPG",
+    "/media/services/festas/photos/ACXO2170.JPG",
+    "/media/services/festas/photos/GKZI4087.JPG",
+    "/media/services/festas/photos/IMG_1116.JPG",
+    "/media/services/festas/photos/IMG_1156.JPG",
+    "/media/services/festas/photos/IMG_1158.JPG",
+    "/media/services/festas/photos/parties_cover.JPG"
   ];
 
   const moreThanDecorSections = [
     {
       title: "Atmosfera Vibrante",
       description: "Os nossos elementos estruturais e de iluminação são curados para criar um ambiente dinâmico que celebra a vida e a energia.",
-      image: "https://images.pexels.com/photos/787961/pexels-photo-787961.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+      image: "/media/services/festas/photos/IMG_1156.JPG"
     },
     {
       title: "Celebrações Marcantes",
       description: "Cada marco é uma oportunidade para a grandeza. Garantimos que os seus momentos marcantes sejam assinalados com distinção artística.",
-      image: "https://images.pexels.com/photos/1389460/pexels-photo-1389460.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+      image: "/media/services/festas/photos/IMG_1158.JPG"
     }
   ];
 

@@ -2,6 +2,7 @@
 
 import { motion } from "framer-motion";
 import Image from "next/image";
+import Link from "next/link";
 
 const testimonials = [
   {
@@ -119,13 +120,15 @@ export default function TestemunhosPage() {
 
       <section className="mt-40 text-center py-24 border-t border-white/5">
         <h3 className="font-serif text-4xl md:text-5xl mb-12">Pronto para criar sua própria história?</h3>
-        <motion.button
-          whileHover={{ scale: 1.05 }}
-          whileTap={{ scale: 0.95 }}
-          className="px-14 py-5 bg-gold text-black font-bold uppercase tracking-[0.2em] text-xs hover:bg-gold-light transition-all shadow-xl shadow-gold/10"
-        >
-          Contacte-nos
-        </motion.button>
+        <Link href="/contact">
+          <motion.button
+            whileHover={{ scale: 1.05 }}
+            whileTap={{ scale: 0.95 }}
+            className="px-14 py-5 bg-gold text-black font-bold uppercase tracking-[0.2em] text-xs hover:bg-gold-light transition-all shadow-xl shadow-gold/10 cursor-pointer"
+          >
+            Contacte-nos
+          </motion.button>
+        </Link>
       </section>
     </div>
   );

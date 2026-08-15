@@ -7,10 +7,10 @@ import { Layout, PenTool, Sparkles } from "lucide-react";
 
 export default function About() {
   const team = [
-    { name: "Jojo Kottarakkara", role: "Fundador e Designer Líder", img: "https://eventgramusa.com/images/jojo-k.jpg" },
-    { name: "Dany Sam", role: "Líder de Operações", img: "https://eventgramusa.com/images/image-1-t.webp" },
-    { name: "Albert Jose", role: "Estrategista Criativo", img: "https://eventgramusa.com/images/image-2-t.webp" },
-    { name: "Jithu Job", role: "Coordenador de Produção", img: "https://eventgramusa.com/images/image-3-t.webp" },
+    { name: "Letícia Vieira", role: "Designer Líder & Fundadora", img: "/media/about_us/staff/Leticia_Vieira.JPG" },
+    { name: "Equipa de Produção", role: "Gestão & Decoração", img: "/media/about_us/IMG_0881.JPG" },
+    { name: "Equipa Criativa", role: "Estrategistas de Espaço", img: "/media/about_us/IMG_0882.JPG" },
+    { name: "Coordenação", role: "Logística de Eventos", img: "/media/about_us/IMG_0463.JPG" },
   ];
 
   const philosophy = [
@@ -47,7 +47,7 @@ export default function About() {
       {/* HERO SECTION */}
       <section className="relative w-full h-[70vh] flex flex-col items-center justify-center overflow-hidden">
         <Image
-          src="https://eventgramusa.com/images/about1img.png"
+          src="/media/about_us/IMG_0881.JPG"
           alt="About NOAME"
           fill
           priority
@@ -79,7 +79,7 @@ export default function About() {
           >
             <div className="relative rounded-3xl overflow-hidden mt-12 mb-4">
               <Image 
-                src="https://eventgramusa.com/images/image-about-1.webp"
+                src="/media/about_us/IMG_0465.JPG"
                 alt="Story 1"
                 fill
                 className="object-cover"
@@ -87,7 +87,7 @@ export default function About() {
             </div>
             <div className="relative rounded-3xl overflow-hidden mb-12 mt-4 shadow-2xl">
               <Image 
-                src="https://eventgramusa.com/images/image-about-2.webp"
+                src="/media/about_us/IMG_0467.JPG"
                 alt="Story 2"
                 fill
                 className="object-cover"
@@ -151,8 +151,8 @@ export default function About() {
             className="relative h-[500px] md:h-[650px] rounded-full overflow-hidden border-8 border-white/50 dark:border-black/50 shadow-2xl order-1 lg:order-2"
           >
             <Image 
-              src="https://eventgramusa.com/images/jojo-k.jpg" 
-              alt="Jojo Kottarakkara" 
+              src="/media/about_us/IMG_0468.JPG" 
+              alt="Fundadora NOAME" 
               fill 
               className="object-cover scale-105 hover:scale-110 transition-transform duration-1000"
             />
@@ -198,7 +198,7 @@ export default function About() {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-12 h-auto">
                <motion.div {...fadeInUp} className="space-y-6">
                   <div className="relative h-[400px] md:h-[600px] rounded-3xl overflow-hidden shadow-xl grayscale hover:grayscale-0 transition-all duration-700">
-                    <Image src="https://eventgramusa.com/images/image-ret.webp" fill alt="Vision" className="object-cover" />
+                    <Image src="/media/about_us/IMG_0470.JPG" fill alt="Vision" className="object-cover" />
                   </div>
                   <div className="text-center">
                     <h4 className="text-xl font-serif font-bold text-gold uppercase tracking-widest">A Visão</h4>
@@ -208,7 +208,7 @@ export default function About() {
 
                <motion.div {...fadeInUp} className="space-y-6 md:mt-24">
                   <div className="relative h-[400px] md:h-[600px] rounded-3xl overflow-hidden shadow-xl border-4 border-gold/20">
-                    <Image src="https://eventgramusa.com/images/imagereescs.webp" fill alt="Reality" className="object-cover" />
+                    <Image src="/media/about_us/IMG_0472.JPG" fill alt="Reality" className="object-cover" />
                   </div>
                   <div className="text-center">
                     <h4 className="text-xl font-serif font-bold text-gold uppercase tracking-widest">A Realidade</h4>
@@ -234,7 +234,7 @@ export default function About() {
                 transition={{ delay: idx * 0.1 }}
                 className="group text-center"
               >
-                <div className="relative w-full h-115 aspect-[4/5] rounded-2xl overflow-hidden mb-6 shadow-lg">
+                <div className="relative w-full h-[460px] aspect-[4/5] rounded-2xl overflow-hidden mb-6 shadow-lg">
                    <Image 
                      src={member.img} 
                      alt={member.name} 

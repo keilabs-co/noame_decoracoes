@@ -7,33 +7,33 @@ import ServiceDetailTemplate from "@/components/ServiceDetailTemplate";
  */
 export default function LocacaoPage() {
   const selectionImages = [
-    "https://images.pexels.com/photos/1866149/pexels-photo-1866149.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-    "https://images.pexels.com/photos/1350789/pexels-photo-1350789.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-    "https://images.pexels.com/photos/276528/pexels-photo-276528.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-    "https://images.pexels.com/photos/447592/pexels-photo-447592.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+    "/media/services/locacao/photos/IMG_8876.JPG",
+    "/media/services/locacao/photos/IMG_8877.JPG",
+    "/media/services/locacao/photos/IMG_8878.JPG",
+    "/media/services/locacao/photos/IMG_8879.JPG"
   ];
 
   const marqueeImages = [
-    "https://images.pexels.com/photos/1866149/pexels-photo-1866149.jpeg?auto=compress&cs=tinysrgb&w=600",
-    "https://images.pexels.com/photos/1350789/pexels-photo-1350789.jpeg?auto=compress&cs=tinysrgb&w=600",
-    "https://images.pexels.com/photos/276528/pexels-photo-276528.jpeg?auto=compress&cs=tinysrgb&w=600",
-    "https://images.pexels.com/photos/447592/pexels-photo-447592.jpeg?auto=compress&cs=tinysrgb&w=600",
-    "https://images.pexels.com/photos/279719/pexels-photo-279719.jpeg?auto=compress&cs=tinysrgb&w=600",
-    "https://images.pexels.com/photos/271816/pexels-photo-271816.jpeg?auto=compress&cs=tinysrgb&w=600",
-    "https://images.pexels.com/photos/2082087/pexels-photo-2082087.jpeg?auto=compress&cs=tinysrgb&w=600",
-    "https://images.pexels.com/photos/276583/pexels-photo-276583.jpeg?auto=compress&cs=tinysrgb&w=600"
+    "/media/services/locacao/photos/lococao_cover.JPG",
+    "/media/services/locacao/photos/IMG_8880.JPG",
+    "/media/services/locacao/photos/IMG_8881.JPG",
+    "/media/services/locacao/photos/IMG_8883.JPG",
+    "/media/services/locacao/photos/IMG_8884.JPG",
+    "/media/services/locacao/photos/IMG_8885.JPG",
+    "/media/services/locacao/photos/IMG_8887.JPG",
+    "/media/services/locacao/photos/IMG_8888.JPG"
   ];
 
   const moreThanDecorSections = [
     {
       title: "Curadoria e Coleção",
       description: "Nossa biblioteca de aluguer é composta por peças de mobiliário exclusivas que representam o melhor do design moderno e clássico.",
-      image: "https://images.pexels.com/photos/279719/pexels-photo-279719.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+      image: "/media/services/locacao/photos/IMG_8889.JPG"
     },
     {
       title: "Logística de Assinatura",
       description: "Cada item é entregue e manuseado com extremo cuidado, garantindo que o seu espaço pareça impecável de todos os ângulos.",
-      image: "https://images.pexels.com/photos/271816/pexels-photo-271816.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+      image: "/media/services/locacao/photos/IMG_8890.JPG"
     }
   ];
 

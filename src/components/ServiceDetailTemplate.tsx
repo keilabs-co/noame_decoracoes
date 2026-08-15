@@ -83,13 +83,6 @@ export default function ServiceDetailTemplate({
 
       {/* 7. CTA SECTION */}
       <ServiceCTA title={title} />
-
-      {/* FOOTER COMMENT - Facilitates user editing */}
-      <footer className="py-12 px-6 border-t border-white/5 bg-background">
-        <div className="max-w-7xl mx-auto text-center text-foreground/30 text-xs tracking-[0.3em] uppercase">
-          © {new Date().getFullYear()} NOAME Events & Design | Todos os Direitos Reservados
-        </div>
-      </footer>
     </div>
   );
 }

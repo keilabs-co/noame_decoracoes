@@ -2,15 +2,16 @@
 
 import { motion } from "framer-motion";
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Portfolio() {
   const portfolios = [
-    { title: "Decoração de Palco", category: "Casamentos", image: "https://images.unsplash.com/photo-1519741497674-611481863552?q=80&w=2070&auto=format&fit=crop" },
-    { title: "Decoração Mandap", category: "Tradicional", image: "https://images.unsplash.com/photo-1544321526-7f411baed6be?q=80&w=1964&auto=format&fit=crop" },
-    { title: "Buquês de Noiva", category: "Floral", image: "https://images.unsplash.com/photo-1523688881242-db9766943093?q=80&w=1964&auto=format&fit=crop" },
-    { title: "Decoração de Pedido", category: "Privado", image: "https://images.unsplash.com/photo-1518049362265-6101ce666e5f?q=80&w=2072&auto=format&fit=crop" },
-    { title: "Decoração de Igreja", category: "Casamentos", image: "https://images.unsplash.com/photo-1545622151-57d4722883f3?q=80&w=1978&auto=format&fit=crop" },
-    { title: "Configuração Corporativa", category: "Negócios", image: "https://images.unsplash.com/photo-1511578314322-379afb476865?q=80&w=2069&auto=format&fit=crop" },
+    { title: "Decoração de Casamento", category: "Casamentos", image: "/media/services/casamentos/photos/wedding_cover.JPG" },
+    { title: "Serviço de Catering Gourmet", category: "Catering", image: "/media/services/catering/photos/catering_cover.JPG" },
+    { title: "Eventos Corporativos", category: "Corporativos", image: "/media/services/corporativos/photos/corporative_cover.JPG" },
+    { title: "Festas Particulares", category: "Festas", image: "/media/services/festas/photos/parties_cover.JPG" },
+    { title: "Graduações & Formações", category: "Formações", image: "/media/services/formacoes/photos/formacoes_cover.JPG" },
+    { title: "Locação de Equipamento", category: "Locação", image: "/media/services/locacao/photos/lococao_cover.JPG" },
   ];
 
   return (
@@ -65,12 +66,14 @@ export default function Portfolio() {
 
       {/* CTA SECTION */}
       <section className="text-center pt-12">
-        <motion.button
-          whileHover={{ scale: 1.05 }}
-          className="px-8 py-4 bg-foreground text-background font-bold rounded-full hover:bg-gold transition-colors duration-300"
-        >
-          Ver Portfólio Completo
-        </motion.button>
+        <Link href="/contact">
+          <motion.button
+            whileHover={{ scale: 1.05 }}
+            className="px-8 py-4 bg-foreground text-background font-bold rounded-full hover:bg-gold hover:text-black transition-colors duration-300 cursor-pointer"
+          >
+            Agendar um Evento
+          </motion.button>
+        </Link>
       </section>
 
     </div>

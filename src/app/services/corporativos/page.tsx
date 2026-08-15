@@ -7,33 +7,33 @@ import ServiceDetailTemplate from "@/components/ServiceDetailTemplate";
  */
 export default function CorporativosPage() {
   const selectionImages = [
-    "https://images.pexels.com/photos/1181396/pexels-photo-1181396.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-    "https://images.pexels.com/photos/3183150/pexels-photo-3183150.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-    "https://images.pexels.com/photos/1181438/pexels-photo-1181438.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-    "https://images.pexels.com/photos/1181373/pexels-photo-1181373.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+    "/media/services/corporativos/photos/IMG_2902.JPG",
+    "/media/services/corporativos/photos/IMG_2903.JPG",
+    "/media/services/corporativos/photos/IMG_2904.JPG",
+    "/media/services/corporativos/photos/IMG_2905.JPG"
   ];
 
   const marqueeImages = [
-    "https://images.pexels.com/photos/1181396/pexels-photo-1181396.jpeg?auto=compress&cs=tinysrgb&w=600",
-    "https://images.pexels.com/photos/3183150/pexels-photo-3183150.jpeg?auto=compress&cs=tinysrgb&w=600",
-    "https://images.pexels.com/photos/1181438/pexels-photo-1181438.jpeg?auto=compress&cs=tinysrgb&w=600",
-    "https://images.pexels.com/photos/1181373/pexels-photo-1181373.jpeg?auto=compress&cs=tinysrgb&w=600",
-    "https://images.pexels.com/photos/2101030/pexels-photo-2101030.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-    "https://images.pexels.com/photos/1181671/pexels-photo-1181671.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-    "https://images.pexels.com/photos/3182812/pexels-photo-3182812.jpeg?auto=compress&cs=tinysrgb&w=600",
-    "https://images.pexels.com/photos/3182746/pexels-photo-3182746.jpeg?auto=compress&cs=tinysrgb&w=600"
+    "/media/services/corporativos/photos/corporative_cover.JPG",
+    "/media/services/corporativos/photos/IMG_2906.JPG",
+    "/media/services/corporativos/photos/IMG_2907.JPG",
+    "/media/services/corporativos/photos/IMG_2908.JPG",
+    "/media/services/corporativos/photos/IMG_2909.JPG",
+    "/media/services/corporativos/photos/IMG_2911.JPG",
+    "/media/services/corporativos/photos/IMG_2912.JPG",
+    "/media/services/corporativos/photos/IMG_8854.JPG"
   ];
 
   const moreThanDecorSections = [
     {
       title: "Design de Experiência Estratégico",
       description: "Alinhamos cada detalhe com a missão da sua marca, criando ambientes que fomentam a inovação e o prestígio profissional.",
-      image: "https://images.pexels.com/photos/1181671/pexels-photo-1181671.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+      image: "/media/services/corporativos/photos/IMG_8857.JPG"
     },
     {
       title: "Coordenação de Prestígio",
       description: "A nossa gestão perfeita garante uma atmosfera profissional que deixa uma impressão duradoura nos principais parceiros da sua organização.",
-      image: "https://images.pexels.com/photos/3182812/pexels-photo-3182812.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+      image: "/media/services/corporativos/photos/IMG_8858.JPG"
     }
   ];
 
