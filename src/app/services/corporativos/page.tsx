@@ -7,33 +7,33 @@ import ServiceDetailTemplate from "@/components/ServiceDetailTemplate";
  */
 export default function CorporativosPage() {
   const selectionImages = [
-    "/media/services/corporativos/photos/IMG_2902.JPG",
-    "/media/services/corporativos/photos/IMG_2903.JPG",
-    "/media/services/corporativos/photos/IMG_2904.JPG",
-    "/media/services/corporativos/photos/IMG_2905.JPG"
+    "/media/services/corporativos/photos/selection_Images/IMG_2902.JPG",
+    "/media/services/corporativos/photos/selection_Images/IMG_2903.JPG",
+    "/media/services/corporativos/photos/selection_Images/IMG_2904.JPG",
+    "/media/services/corporativos/photos/selection_Images/IMG_2914.JPG"
   ];
 
   const marqueeImages = [
-    "/media/services/corporativos/photos/corporative_cover.JPG",
-    "/media/services/corporativos/photos/IMG_2906.JPG",
-    "/media/services/corporativos/photos/IMG_2907.JPG",
-    "/media/services/corporativos/photos/IMG_2908.JPG",
-    "/media/services/corporativos/photos/IMG_2909.JPG",
-    "/media/services/corporativos/photos/IMG_2911.JPG",
-    "/media/services/corporativos/photos/IMG_2912.JPG",
-    "/media/services/corporativos/photos/IMG_8854.JPG"
+    "/media/services/corporativos/photos/marquee_Images/corporative_cover.JPG",
+    "/media/services/corporativos/photos/marquee_Images/IMG_2906.JPG",
+    "/media/services/corporativos/photos/marquee_Images/IMG_2908.JPG",
+    "/media/services/corporativos/photos/marquee_Images/IMG_2912.JPG",
+    "/media/services/corporativos/photos/marquee_Images/IMG_2907.JPG",
+    "/media/services/corporativos/photos/marquee_Images/IMG_2905.JPG",
+    "/media/services/corporativos/photos/marquee_Images/IMG_2932.JPG",
+    "/media/services/corporativos/photos/marquee_Images/IMG_2909.JPG"
   ];
 
   const moreThanDecorSections = [
     {
       title: "Design de Experiência Estratégico",
       description: "Alinhamos cada detalhe com a missão da sua marca, criando ambientes que fomentam a inovação e o prestígio profissional.",
-      image: "/media/services/corporativos/photos/IMG_8857.JPG"
+      image: "/media/services/corporativos/photos/more_Than_Decor/IMG_2911.JPG"
     },
     {
       title: "Coordenação de Prestígio",
       description: "A nossa gestão perfeita garante uma atmosfera profissional que deixa uma impressão duradoura nos principais parceiros da sua organização.",
-      image: "/media/services/corporativos/photos/IMG_8858.JPG"
+      image: "/media/services/corporativos/photos/more_Than_Decor/IMG_8854.JPG"
     }
   ];
 

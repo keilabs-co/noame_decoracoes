@@ -7,33 +7,33 @@ import ServiceDetailTemplate from "@/components/ServiceDetailTemplate";
  */
 export default function FestasPage() {
   const selectionImages = [
-    "/media/services/festas/photos/ABDQ9605.JPG",
-    "/media/services/festas/photos/ACXO2170.JPG",
-    "/media/services/festas/photos/GKZI4087.JPG",
-    "/media/services/festas/photos/IMG_1116.JPG"
+    "/media/services/festas/photos/selection_Images/ABDQ9605.JPG",
+    "/media/services/festas/photos/selection_Images/ACXO2170.JPG",
+    "/media/services/festas/photos/selection_Images/GKZI4087.JPG",
+    "/media/services/festas/photos/selection_Images/IMG_1116.JPG"
   ];
 
   const marqueeImages = [
-    "/media/services/festas/photos/parties_cover.JPG",
-    "/media/services/festas/photos/ABDQ9605.JPG",
-    "/media/services/festas/photos/ACXO2170.JPG",
-    "/media/services/festas/photos/GKZI4087.JPG",
-    "/media/services/festas/photos/IMG_1116.JPG",
-    "/media/services/festas/photos/IMG_1156.JPG",
-    "/media/services/festas/photos/IMG_1158.JPG",
-    "/media/services/festas/photos/parties_cover.JPG"
+    "/media/services/festas/photos/marquee_Images/parties_cover.JPG",
+    "/media/services/festas/photos/marquee_Images/ABDQ9605.JPG",
+    "/media/services/festas/photos/marquee_Images/ACXO2170.JPG",
+    "/media/services/festas/photos/marquee_Images/GKZI4087.JPG",
+    "/media/services/festas/photos/marquee_Images/IMG_1116.JPG",
+    "/media/services/festas/photos/marquee_Images/IMG_1156.JPG",
+    "/media/services/festas/photos/marquee_Images/IMG_1158.JPG",
+    "/media/services/festas/photos/marquee_Images/parties_cover.JPG"
   ];
 
   const moreThanDecorSections = [
     {
       title: "Atmosfera Vibrante",
       description: "Os nossos elementos estruturais e de iluminação são curados para criar um ambiente dinâmico que celebra a vida e a energia.",
-      image: "/media/services/festas/photos/IMG_1156.JPG"
+      image: "/media/services/festas/photos/more_Than_Decor/IMG_1156.JPG"
     },
     {
       title: "Celebrações Marcantes",
       description: "Cada marco é uma oportunidade para a grandeza. Garantimos que os seus momentos marcantes sejam assinalados com distinção artística.",
-      image: "/media/services/festas/photos/IMG_1158.JPG"
+      image: "/media/services/festas/photos/more_Than_Decor/IMG_1158.JPG"
     }
   ];
 

@@ -14,12 +14,12 @@ export default function Home() {
   ];
 
   const services = [
-    { title: "Serviços Corporativos", link: "/services/corporativos", video: "https://www.instagram.com/reel/DYFvEp3N_yw/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==" },
-    { title: "Casamentos", link: "/services/casamentos", video: "https://videos.pexels.com/video-files/5849925/5849925-sd_640_360_25fps.mp4" },
-    { title: "Formações", link: "/services/formacoes", video: "https://videos.pexels.com/video-files/6981442/6981442-sd_640_360_25fps.mp4" },
-    { title: "Catering", link: "/services/catering", video: "https://videos.pexels.com/video-files/2824005/2824005-sd_360_640_24fps.mp4" },
-    { title: "Locação de espaço", link: "/services/locacao", video: "https://videos.pexels.com/video-files/7506927/7506927-sd_640_360_25fps.mp4" },
-    { title: "Festas particulares", link: "/services/festas", video: "https://videos.pexels.com/video-files/7506927/7506927-sd_640_360_25fps.mp4" },
+    { title: "Serviços Corporativos", link: "/services/corporativos", img: "/media/services/corporativos/photos/corporative_cover.JPG" },
+    { title: "Casamentos", link: "/services/casamentos",img: "/media/services/casamentos/photos/wedding_cover.JPG" },
+    { title: "Formações", link: "/services/formacoes", img: "/media/services/formacoes/photos/formacoes_cover.JPG" },
+    { title: "Catering", link: "/services/catering", img: "/media/services/catering/photos/catering_cover.JPG" },
+    { title: "Locação de espaço", link: "/services/locacao", img: "/media/services/locacao/photos/lococao_cover.JPG" },
+    { title: "Festas particulares", link: "/services/festas", img: "/media/services/festas/photos/parties_cover.JPG" },
   ];
 
   const masterpieces = [
@@ -144,17 +144,13 @@ export default function Home() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {services.map((service, idx) => (
             <Link href={service.link} key={idx} className={`group block relative h-[400px] rounded-3xl overflow-hidden cursor-pointer ${idx >= 3 ? 'lg:col-span-1' : ''}`}>
-              {/* VIDEO BACKGROUND */}
-              <video 
-                src={service.video}
-                muted 
-                loop 
-                playsInline
-                onMouseOver={(e) => e.currentTarget.play()}
-                onMouseOut={(e) => {
-                  e.currentTarget.pause();
-                  e.currentTarget.currentTime = 0;
-                }}
+              {/* IMAGE BACKGROUND */}
+              <Image
+                alt={service.title}
+                fill
+                priority={idx < 3} 
+                quality={80} 
+                src={service.img}
                 className="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
               />
               <div className="absolute inset-0 bg-black/40 group-hover:bg-black/20 transition-colors duration-500" />

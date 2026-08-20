@@ -6,12 +6,6 @@ import Link from "next/link";
 import { Layout, PenTool, Sparkles } from "lucide-react";
 
 export default function About() {
-  const team = [
-    { name: "Letícia Vieira", role: "Designer Líder & Fundadora", img: "/media/about_us/staff/Leticia_Vieira.JPG" },
-    { name: "Equipa de Produção", role: "Gestão & Decoração", img: "/media/about_us/IMG_0881.JPG" },
-    { name: "Equipa Criativa", role: "Estrategistas de Espaço", img: "/media/about_us/IMG_0882.JPG" },
-    { name: "Coordenação", role: "Logística de Eventos", img: "/media/about_us/IMG_0463.JPG" },
-  ];
 
   const philosophy = [
     {
@@ -31,9 +25,6 @@ export default function About() {
     },
   ];
 
-  const locations = [
-    "New Jersey", "New York", "Pennsylvania", "Connecticut", "Delaware", "Atlanta", "Illinois", "Maryland", "Texas"
-  ];
 
   const fadeInUp = {
     initial: { opacity: 0, y: 30 },
@@ -105,7 +96,7 @@ export default function About() {
             </div>
             <div className="space-y-6 text-foreground/80 text-lg leading-relaxed font-light">
               <p>
-                A NOAME foi construída sobre uma base de celebração, família e tradição. Com mais de 35 anos de experiência enraizada em um negócio de eventos liderado pela família, as celebrações sempre fizeram parte da nossa vida cotidiana.
+                A NOAME foi construída sobre uma base de celebração, família e tradição. Com mais de 20 anos de experiência enraizada em um negócio de eventos liderado pela família, as celebrações sempre fizeram parte da nossa vida cotidiana.
               </p>
               <p>
                 Estar cercado por casamentos, tradições e encontros culturais moldou nosso entendimento do que realmente torna um evento especial. Essa paixão continua a definir a NOAME hoje.
@@ -126,12 +117,12 @@ export default function About() {
             className="space-y-8 order-2 lg:order-1"
           >
              <div className="space-y-4">
-                <h3 className="text-sm font-bold tracking-[0.2em] uppercase text-gold">Mensagem do Fundador</h3>
+                <h3 className="text-sm font-bold tracking-[0.2em] uppercase text-gold">Mensagem da Fundadora</h3>
                 <h2 className="font-serif text-4xl md:text-5xl font-bold leading-tight uppercase">Criando Memórias,<br/>Um Detalhe de Cada Vez</h2>
              </div>
              <div className="space-y-6 text-foreground/80 leading-relaxed font-light text-lg">
                 <p>
-                   A jornada da NOAME tomou forma quando essa base inicial foi levada para o exterior. Em 2019, a marca começou com uma intenção simples — apoiar celebrações comunitárias e culturais com o mesmo cuidado, disciplina e respeito aprendidos ao longo dos anos.
+                   A jornada da NOAME tomou forma quando essa base inicial foi levada para todo o Maputo. Em 2019, a marca começou com uma intenção simples — apoiar celebrações comunitárias e culturais com o mesmo cuidado, disciplina e respeito aprendidos ao longo dos anos.
                 </p>
                 <p>
                    No momento de sua fundação, a NOAME estava entre as primeiras empresas de gestão de eventos de serviço completo atendendo à comunidade com foco em qualidade e confiança.
@@ -141,8 +132,8 @@ export default function About() {
                 </p>
              </div>
              <div className="pt-4 border-t border-gold/20">
-                <h4 className="font-serif text-2xl font-bold text-gold">Jojo Kottarakkara</h4>
-                <p className="text-sm uppercase tracking-widest text-foreground/50 mt-1">Fundador, NOAME</p>
+                <h4 className="font-serif text-2xl font-bold text-gold">Leticia Vieira</h4>
+                <p className="text-sm uppercase tracking-widest text-foreground/50 mt-1">Fundadora, NOAME</p>
              </div>
           </motion.div>
 
@@ -187,79 +178,8 @@ export default function About() {
          </div>
       </section>
 
-      {/* BEHIND THE DESIGN (Vision vs Reality) */}
-      <section className="py-24 bg-foreground/5 w-full">
-         <div className="max-w-7xl mx-auto px-6">
-            <div className="text-center mb-16">
-               <h3 className="text-sm font-bold tracking-[0.2em] uppercase text-gold mb-4">Do Conceito à Criação</h3>
-               <h2 className="font-serif text-4xl md:text-5xl font-bold uppercase">Por Trás do Design</h2>
-            </div>
 
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-12 h-auto">
-               <motion.div {...fadeInUp} className="space-y-6">
-                  <div className="relative h-[400px] md:h-[600px] rounded-3xl overflow-hidden shadow-xl grayscale hover:grayscale-0 transition-all duration-700">
-                    <Image src="/media/about_us/IMG_0470.JPG" fill alt="Vision" className="object-cover" />
-                  </div>
-                  <div className="text-center">
-                    <h4 className="text-xl font-serif font-bold text-gold uppercase tracking-widest">A Visão</h4>
-                    <p className="text-foreground/60 text-sm mt-1 italic">Esboços e Moodboards</p>
-                  </div>
-               </motion.div>
-
-               <motion.div {...fadeInUp} className="space-y-6 md:mt-24">
-                  <div className="relative h-[400px] md:h-[600px] rounded-3xl overflow-hidden shadow-xl border-4 border-gold/20">
-                    <Image src="/media/about_us/IMG_0472.JPG" fill alt="Reality" className="object-cover" />
-                  </div>
-                  <div className="text-center">
-                    <h4 className="text-xl font-serif font-bold text-gold uppercase tracking-widest">A Realidade</h4>
-                    <p className="text-foreground/60 text-sm mt-1 italic">Execução no Local</p>
-                  </div>
-               </motion.div>
-            </div>
-         </div>
-      </section>
-
-      {/* THE FAMILY / TEAM */}
-      <section className="py-32 px-6 max-w-7xl mx-auto w-full">
-         <div className="text-center mb-16">
-            <h3 className="text-sm font-bold tracking-[0.2em] uppercase text-gold mb-4">Conheça a Equipe</h3>
-            <h2 className="font-serif text-4xl md:text-5xl font-bold uppercase">A Família NOAME</h2>
-         </div>
-
-         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-12">
-            {team.map((member, idx) => (
-              <motion.div 
-                key={idx}
-                {...fadeInUp}
-                transition={{ delay: idx * 0.1 }}
-                className="group text-center"
-              >
-                <div className="relative w-full h-[460px] aspect-[4/5] rounded-2xl overflow-hidden mb-6 shadow-lg">
-                   <Image 
-                     src={member.img} 
-                     alt={member.name} 
-                     fill 
-                     className="object-cover transition-transform duration-700 group-hover:scale-110"
-                   />
-                   <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
-                </div>
-                <h4 className="font-serif text-2xl font-bold uppercase tracking-wide">{member.name}</h4>
-                <p className="text-gold text-sm font-bold uppercase tracking-[0.2em] mt-2">{member.role}</p>
-              </motion.div>
-            ))}
-         </div>
-      </section>
-
-      {/* FINAL CTA */}
-      <section className="relative py-32 px-6 w-full flex items-center justify-center overflow-hidden">
-        <div className="absolute inset-0 bg-black/80 z-10" />
-        <Image
-          src="https://images.unsplash.com/photo-1464366400600-7168b8af9bc3?q=80&w=2069"
-          alt="Celebrate Events"
-          fill
-          className="object-cover object-center grayscale opacity-40"
-        />
-        
+      <section>
         <motion.div 
           {...fadeInUp}
           className="relative z-20 text-center max-w-4xl liquid-glass-card p-10 md:p-20 border border-white/10"
