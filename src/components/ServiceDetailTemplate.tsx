@@ -19,6 +19,7 @@ interface ServiceDetailTemplateProps {
   title: string;
   subtitle: string;
   heroVideo: string;
+  heroImage?: string; 
   introHeading: string;
   introText: string;
   selectionImages: string[];
@@ -30,6 +31,7 @@ export default function ServiceDetailTemplate({
   title,
   subtitle,
   heroVideo,
+  heroImage,
   introHeading,
   introText,
   selectionImages,
@@ -45,6 +47,7 @@ export default function ServiceDetailTemplate({
         title={title}
         subtitle={subtitle}
         videoUrl={heroVideo}
+        imgUrl={heroImage}
       />
 
       {/* 2. INTRO SECTION */}

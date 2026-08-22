@@ -41,7 +41,8 @@ export default function CateringPage() {
     <ServiceDetailTemplate
       title="Catering"
       subtitle="Sabores Requintados e Apresentação Impecável"
-      heroVideo="https://assets.mixkit.co/videos/preview/mixkit-chef-plating-a-gourmet-dish-in-slow-motion-4422-large.mp4"
+      heroVideo="/media/services/catering/video/hero_video/hero_catering.mov"
+      heroImage="/media/services/catering/photos/marquee_Images/catering_cover.JPG"
       introHeading="Um Santuário Culinário"
       introText="Acreditamos que uma comida excepcional é uma parte sagrada de qualquer celebração. Os nossos serviços de catering combinam o artesanato tradicional com técnicas culinárias modernas."
       selectionImages={selectionImages}

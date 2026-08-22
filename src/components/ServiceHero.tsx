@@ -6,11 +6,12 @@ interface ServiceHeroProps {
   title: string;
   subtitle?: string;
   videoUrl: string;
+  imgUrl?: string;
 }
 
-export default function ServiceHero({ title, subtitle, videoUrl }: ServiceHeroProps) {
+export default function ServiceHero({ title, subtitle, videoUrl, imgUrl }: ServiceHeroProps) {
   return (
-    <section className="relative h-[70vh] md:h-[85vh] w-full overflow-hidden flex items-center justify-center">
+    <section className="relative h-[85vh] md:h-[85vh] w-full overflow-hidden flex items-center justify-center">
       {/* Background Video/Image Container */}
       <div className="absolute inset-0 z-0">
         <video
@@ -18,11 +19,18 @@ export default function ServiceHero({ title, subtitle, videoUrl }: ServiceHeroPr
           loop
           muted
           playsInline
-          className="w-full h-full object-cover"
+          className="w-full h-full object-cover lg:hiden"
         >
           <source src={videoUrl} type="video/mp4" />
           O seu navegador não suporta a tag de vídeo.
         </video>
+
+        <img
+          src={imgUrl}
+          alt={title}
+          className="hidden lg:block w-full h-full object-cover"
+        />
+
         {/* Dark Overlay for premium feel and readability */}
         <div className="absolute inset-0 bg-black/50" />
       </div>

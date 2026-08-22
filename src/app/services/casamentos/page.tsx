@@ -2,11 +2,6 @@
 
 import ServiceDetailTemplate from "@/components/ServiceDetailTemplate";
 
-/**
- * CASAMENTOS (Wedding Design) Service Page
- * Content is in English as requested.
- * All media can be swapped by replacing the URLs below.
- */
 export default function CasamentosPage() {
   const selectionImages = [
     "/media/services/casamentos/photos/selection_Images/IMG_1079.JPG",
@@ -43,7 +38,8 @@ export default function CasamentosPage() {
     <ServiceDetailTemplate
       title="Casamentos"
       subtitle="A Arte da União Sagrada"
-      heroVideo="https://assets.mixkit.co/videos/preview/mixkit-wedding-couple-walking-in-front-of-a-castle-4416-large.mp4"
+      heroVideo="/media/services/casamentos/video/hero_video/hero_casamento.mov"
+      heroImage=    "/media/services/casamentos/photos/marquee_Images/wedding_cover.JPG"
       introHeading="Uma Celebração Divina do Amor"
       introText="Cada casamento é uma obra-prima única. Somos especialistas em transformar espaços em cenários sagrados deslumbrantes que honram a importância e a beleza do seu compromisso."
       selectionImages={selectionImages}

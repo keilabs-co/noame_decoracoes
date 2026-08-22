@@ -41,7 +41,8 @@ export default function LocacaoPage() {
     <ServiceDetailTemplate
       title="Locação"
       subtitle="A Coleção do Sofisticado"
-      heroVideo="https://assets.mixkit.co/videos/preview/mixkit-top-shot-of-a-person-writing-in-a-notebook-4437-large.mp4"
+      heroVideo="/media/services/locacao/video/hero_video/hero_locacao.mov"
+      heroImage="/media/services/locacao/photos/marquee_Images/locacao_cover.JPG"
       introHeading="Uma Narrativa de Design"
       introText="O mobiliário exclusivo é mais do que utilidade — é uma escolha narrativa. Nossa coleção de aluguer é curada para adicionar um toque de elegância divina à visão arquitetónica do seu evento."
       selectionImages={selectionImages}

@@ -41,7 +41,8 @@ export default function CorporativosPage() {
     <ServiceDetailTemplate
       title="Corporativos"
       subtitle="Excelência no Branding Ambiental"
-      heroVideo="https://assets.mixkit.co/videos/preview/mixkit-businesswoman-giving-a-presentation-12499-large.mp4"
+      heroVideo="/media/services/corporativos/video/hero_video/hero_corporativos.mov"
+      heroImage="/media/services/corporativos/photos/marquee_Images/corporative_cover.JPG"
       introHeading="Uma Obra-Prima do Profissionalismo"
       introText="A narrativa sagrada da sua marca merece ser contada através de um design espacial sofisticado que inspire excelência e compromisso."
       selectionImages={selectionImages}
