@@ -8,37 +8,37 @@ const allServices = [
   {
     title: "Casamentos",
     description: "Decoração de casamento elegante e intemporal, adaptada à sua história de amor e visão única.",
-    image: "/media/services/casamentos/photos/marquee_Images/wedding_cover.JPG",
+    image: "https://res.cloudinary.com/tpwhg02l/image/upload/v1787589674/wedding_cover.jpg",
     href: "/services/casamentos"
   },
   {
     title: "Catering",
     description: "Experiências culinárias excepcionais e apresentações de bebidas para todas as ocasiões.",
-    image: "/media/services/catering/photos/marquee_Images/catering_cover.JPG",
+    image: "https://res.cloudinary.com/tpwhg02l/image/upload/v1787589796/catering_cover.jpg/media/services/catering/photos/marquee_Images/catering_cover.JPG",
     href: "/services/catering"
   },
   {
     title: "Corporativos",
     description: "Design de eventos profissional e focado na marca que deixa uma impressão duradoura.",
-    image: "/media/services/corporativos/photos/marquee_Images/corporative_cover.JPG",
+    image: "https://res.cloudinary.com/tpwhg02l/image/upload/v1787589744/corporative_cover.jpg/media/services/corporativos/photos/marquee_Images/corporative_cover.JPG",
     href: "/services/corporativos"
   },
   {
     title: "Festas",
     description: "Encontros sociais vibrantes e dinâmicos projetados para celebrar os marcos da vida.",
-    image: "/media/services/festas/photos/marquee_Images/parties_cover.JPG",
+    image: "https://res.cloudinary.com/tpwhg02l/image/upload/v1787589759/image0(1).jpeg",
     href: "/services/festas"
   },
   {
     title: "Formações",
     description: "Eventos formais sofisticados e graduações que celebram conquistas e legado.",
-    image: "/media/services/formacoes/photos/marquee_Images/formacoes_cover.JPG",
+    image: "https://res.cloudinary.com/tpwhg02l/image/upload/v1787589695/formacoes_cover.JPG",
     href: "/services/formacoes"
   },
   {
     title: "Locação",
     description: "Soluções premium de aluguer de eventos com mobiliário curado e itens de decoração exclusivos.",
-    image: "/media/services/locacao/photos/marquee_Images/lococao_cover.JPG",
+    image: "https://res.cloudinary.com/tpwhg02l/image/upload/v1787589716/lococao_cover.JPG",
     href: "/services/locacao"
   }
 ];

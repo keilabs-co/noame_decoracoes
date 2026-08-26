@@ -14,12 +14,12 @@ export default function Home() {
   ];
 
   const services = [
-    { title: "Serviços Corporativos", link: "/services/corporativos", img: "/media/services/corporativos/photos/corporative_cover.JPG" },
-    { title: "Casamentos", link: "/services/casamentos",img: "/media/services/casamentos/photos/wedding_cover.JPG" },
-    { title: "Formações", link: "/services/formacoes", img: "/media/services/formacoes/photos/formacoes_cover.JPG" },
-    { title: "Catering", link: "/services/catering", img: "/media/services/catering/photos/catering_cover.JPG" },
-    { title: "Locação de espaço", link: "/services/locacao", img: "/media/services/locacao/photos/lococao_cover.JPG" },
-    { title: "Festas particulares", link: "/services/festas", img: "/media/services/festas/photos/parties_cover.JPG" },
+    { title: "Serviços Corporativos", link: "/services/corporativos", img: "https://res.cloudinary.com/tpwhg02l/image/upload/v1787589744/corporative_cover.jpg" },
+    { title: "Casamentos", link: "/services/casamentos",img: "https://res.cloudinary.com/tpwhg02l/image/upload/v1787589674/wedding_cover.jpg" },
+    { title: "Formações", link: "/services/formacoes", img: "https://res.cloudinary.com/tpwhg02l/image/upload/v1787589695/formacoes_cover.JPG" },
+    { title: "Catering", link: "/services/catering", img: "https://res.cloudinary.com/tpwhg02l/image/upload/v1787589796/catering_cover.jpg" },
+    { title: "Locação de espaço", link: "/services/locacao", img: "https://res.cloudinary.com/tpwhg02l/image/upload/v1787589716/lococao_cover.JPG" },
+    { title: "Festas particulares", link: "/services/festas", img: "https://res.cloudinary.com/tpwhg02l/image/upload/v1787589759/image0(1).jpeg" },
   ];
 
   const masterpieces = [

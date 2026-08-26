@@ -7,33 +7,33 @@ import ServiceDetailTemplate from "@/components/ServiceDetailTemplate";
  */
 export default function LocacaoPage() {
   const selectionImages = [
-    "/media/services/locacao/photos/selection_Images/IMG_8876.JPG",
-    "/media/services/locacao/photos/selection_Images/IMG_8877.JPG",
-    "/media/services/locacao/photos/selection_Images/IMG_8878.JPG",
-    "/media/services/locacao/photos/selection_Images/IMG_8879.JPG"
+    "https://res.cloudinary.com/tpwhg02l/image/upload/v1787589728/IMG_8876.JPG",
+    "https://res.cloudinary.com/tpwhg02l/image/upload/v1787589728/IMG_8877.JPG",
+    "https://res.cloudinary.com/tpwhg02l/image/upload/v1787589728/IMG_8878.JPG",
+    "https://res.cloudinary.com/tpwhg02l/image/upload/v1787589728/IMG_8879.jpg"
   ];
 
   const marqueeImages = [
-    "/media/services/locacao/photos/marquee_Images/lococao_cover.JPG",
-    "/media/services/locacao/photos/marquee_Images/IMG_8880.JPG",
-    "/media/services/locacao/photos/marquee_Images/IMG_8881.JPG",
-    "/media/services/locacao/photos/marquee_Images/IMG_8883.JPG",
-    "/media/services/locacao/photos/marquee_Images/IMG_8884.JPG",
-    "/media/services/locacao/photos/marquee_Images/IMG_8885.JPG",
-    "/media/services/locacao/photos/marquee_Images/IMG_8887.JPG",
-    "/media/services/locacao/photos/marquee_Images/IMG_8888.JPG"
+    "https://res.cloudinary.com/tpwhg02l/image/upload/v1787589716/lococao_cover.JPG",
+    "https://res.cloudinary.com/tpwhg02l/image/upload/v1787589716/IMG_8880.JPG",
+    "https://res.cloudinary.com/tpwhg02l/image/upload/v1787589716/IMG_8881.JPG",
+    "https://res.cloudinary.com/tpwhg02l/image/upload/v1787589716/IMG_8883.JPG",
+    "https://res.cloudinary.com/tpwhg02l/image/upload/v1787589716/IMG_8884.JPG",
+    "https://res.cloudinary.com/tpwhg02l/image/upload/v1787589716/IMG_8885.JPG",
+    "https://res.cloudinary.com/tpwhg02l/image/upload/v1787589716/IMG_8887.JPG",
+    "https://res.cloudinary.com/tpwhg02l/image/upload/v1787589716/IMG_8888.jpg"
   ];
 
   const moreThanDecorSections = [
     {
       title: "Curadoria e Coleção",
       description: "Nossa biblioteca de aluguer é composta por peças de mobiliário exclusivas que representam o melhor do design moderno e clássico.",
-      image: "/media/services/locacao/photos/more_Than_Decor/IMG_8889.JPG"
+      image: "https://res.cloudinary.com/tpwhg02l/image/upload/v1787589703/IMG_8889.jpg"
     },
     {
       title: "Logística de Assinatura",
       description: "Cada item é entregue e manuseado com extremo cuidado, garantindo que o seu espaço pareça impecável de todos os ângulos.",
-      image: "/media/services/locacao/photos/more_Than_Decor/IMG_8890.JPG"
+      image: "https://res.cloudinary.com/tpwhg02l/image/upload/v1787589700/IMG_8890.jpg/media/services/locacao/photos/more_Than_Decor/IMG_8890.JPG"
     }
   ];
 
@@ -41,8 +41,8 @@ export default function LocacaoPage() {
     <ServiceDetailTemplate
       title="Locação"
       subtitle="A Coleção do Sofisticado"
-      heroVideo="/media/services/locacao/video/hero_video/hero_locacao.mov"
-      heroImage="/media/services/locacao/photos/marquee_Images/locacao_cover.JPG"
+      heroVideo="https://res.cloudinary.com/tpwhg02l/video/upload/v1787589710/hero_locacao.mov"
+      heroImage="https://res.cloudinary.com/tpwhg02l/image/upload/v1787589716/lococao_cover.JPG"
       introHeading="Uma Narrativa de Design"
       introText="O mobiliário exclusivo é mais do que utilidade — é uma escolha narrativa. Nossa coleção de aluguer é curada para adicionar um toque de elegância divina à visão arquitetónica do seu evento."
       selectionImages={selectionImages}
