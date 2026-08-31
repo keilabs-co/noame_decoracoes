@@ -38,9 +38,9 @@ export default function Footer() {
         <div className="flex flex-col space-y-3">
           <h3 className="font-bold text-lg mb-2">Navegação</h3>
           <Link href="/" className="hover:text-gold transition-colors">Início</Link>
-          <Link href="/about" className="hover:text-gold transition-colors">Sobre Nós</Link>
           <Link href="/services" className="hover:text-gold transition-colors">Serviços</Link>
-          <Link href="/portfolio" className="hover:text-gold transition-colors">Portfólio</Link>
+          <Link href="/about" className="hover:text-gold transition-colors">Sobre Nós</Link>
+          {/*<Link href="/portfolio" className="hover:text-gold transition-colors">Portfólio</Link>*/}
         </div>
 
         {/* ==========================================
@@ -49,18 +49,18 @@ export default function Footer() {
         <div className="flex flex-col space-y-3">
           <h3 className="font-bold text-lg mb-2">Contacte-nos</h3>
           
-          <a href="https://maps.google.com" target="_blank" rel="noopener noreferrer" className="hover:text-gold transition-colors flex items-start gap-2">
+          <a href="https://maps.app.goo.gl/7MdkdAVm3SApQdbm9" target="_blank" rel="noopener noreferrer" className="hover:text-gold transition-colors flex items-start gap-2">
             <span>📍</span>
-            56 Ethel Road West, Piscataway, NJ 08854
+            Av. do Trabalho, Maputo
           </a>
-          <a href="tel:+15855365007" className="hover:text-gold transition-colors flex items-center gap-2">
+          <a href="tel:+258842229892" className="hover:text-gold transition-colors flex items-center gap-2">
             <span>📞</span>
-            +1 (585) 536-5007
+            +258 84 222 9892
           </a>
-          <a href="mailto:eventgramusa@gmail.com" className="hover:text-gold transition-colors flex items-center gap-2">
+         {/* <a href="mailto:eventgramusa@gmail.com" className="hover:text-gold transition-colors flex items-center gap-2">
             <span>✉️</span>
             eventgramusa@gmail.com
-          </a>
+          </a>*/}
         </div>
       </div>
       
@@ -68,7 +68,7 @@ export default function Footer() {
             SEÇÃO 4: REDES SOCIAIS E COPYRIGHT
       ========================================== */}
       <div className="max-w-7xl mx-auto mt-12 flex flex-wrap justify-center gap-6 text-sm font-semibold tracking-wide">
-          <a href="#" className="hover:text-gold transition-colors flex items-center gap-2">TikTok</a>
+          <a href="https://www.tiktok.com/@noame_decoracoeseservico?is_from_webapp=1&sender_device=pc" className="hover:text-gold transition-colors flex items-center gap-2">TikTok</a>
           {/* Abertura da rede social em nova aba com práticas de segurança de rel */}
           <a href="https://www.instagram.com/noame_decoracoeseservicos" target="_blank" rel="noopener noreferrer" className="hover:text-gold transition-colors flex items-center gap-2">Instagram</a>
       </div>

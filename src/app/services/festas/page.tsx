@@ -14,14 +14,14 @@ export default function FestasPage() {
   ];
 
   const marqueeImages = [
-    "https://res.cloudinary.com/tpwhg02l/image/upload/v1787589759/image0(1).jpeg",
-    "https://res.cloudinary.com/tpwhg02l/image/upload/v1787589759/ABDQ9605.JPG",
+    "https://res.cloudinary.com/tpwhg02l/image/upload/v1787589761/image0_1.jpg",
+    "https://res.cloudinary.com/tpwhg02l/image/upload/v1787589757/ABDQ9605.jpg",
     "https://res.cloudinary.com/tpwhg02l/image/upload/v1787589759/ACXO2170.JPG",
     "https://res.cloudinary.com/tpwhg02l/image/upload/v1787589759/GKZI4087.jpg",
-    "https://res.cloudinary.com/tpwhg02l/image/upload/v1787589759/IMG_1116.JPG",
-    "https://res.cloudinary.com/tpwhg02l/image/upload/v1787589759/IMG_1156.JPG",
-    "https://res.cloudinary.com/tpwhg02l/image/upload/v1787589759/image4.jpeg",
-    "https://res.cloudinary.com/tpwhg02l/image/upload/v1787589759/image2(1).jpeg"
+    "https://res.cloudinary.com/tpwhg02l/image/upload/v1787589759/GKZI4087.jpg",
+    "https://res.cloudinary.com/tpwhg02l/image/upload/v1787589762/IMG_1156.jpg",
+    "https://res.cloudinary.com/tpwhg02l/image/upload/v1787589766/image4.jpg",
+    "https://res.cloudinary.com/tpwhg02l/image/upload/v1787589760/image2_1.jpg"
   ];
 
   const moreThanDecorSections = [

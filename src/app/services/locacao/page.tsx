@@ -33,7 +33,7 @@ export default function LocacaoPage() {
     {
       title: "Logística de Assinatura",
       description: "Cada item é entregue e manuseado com extremo cuidado, garantindo que o seu espaço pareça impecável de todos os ângulos.",
-      image: "https://res.cloudinary.com/tpwhg02l/image/upload/v1787589700/IMG_8890.jpg/media/services/locacao/photos/more_Than_Decor/IMG_8890.JPG"
+      image: "https://res.cloudinary.com/tpwhg02l/image/upload/v1787589728/IMG_8877.JPG"
     }
   ];
 

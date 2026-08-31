@@ -94,10 +94,9 @@ export default function ContactPage() {
             <h3 className="font-serif text-2xl font-bold mb-6 text-gold">Why Choose NOAME?</h3>
             <ul className="space-y-4">
               {[
-                { icon: <Sparkles className="w-5 h-5 text-gold" />, text: "1000+ events crafted" },
+                { icon: <Sparkles className="w-5 h-5 text-gold" />, text: "100+ events crafted" },
                 { icon: <Clock className="w-5 h-5 text-gold" />, text: "Response within 24 hours" },
                 { icon: <Sparkles className="w-5 h-5 text-gold" />, text: "Bespoke décor" },
-                { icon: <LucideMap className="w-5 h-5 text-gold" />, text: "Serving NJ, NY, PA, CT, ATL & beyond" },
               ].map((item, i) => (
                 <li key={i} className="flex items-center gap-3 text-foreground/90 font-medium">
                   {item.icon}
@@ -110,7 +109,7 @@ export default function ContactPage() {
           {/* Cards de Contato Rápido (Email, Telefone, WhatsApp, Endereço) */}
           <div className="space-y-4">
             {/* E-mail Link */}
-            <a 
+           {/* <a 
               href="mailto:eventgramusa@gmail.com"
               className="flex items-center gap-4 p-4 liquid-glass-card rounded-2xl border border-white/10 hover:border-gold/50 transition-colors group"
             >
@@ -121,11 +120,11 @@ export default function ContactPage() {
                 <p className="text-xs font-bold text-muted-foreground uppercase">Email Us</p>
                 <p className="font-medium">eventgramusa@gmail.com</p>
               </div>
-            </a>
+            </a>*/}
 
             {/* WhatsApp Link (Mobile First App Redirection) */}
             <a 
-              href="https://wa.me/258847615313"
+              href="https://wa.me/258842229892"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center gap-4 p-4 liquid-glass-card rounded-2xl border border-white/10 hover:border-gold/50 transition-colors group"
@@ -135,13 +134,13 @@ export default function ContactPage() {
               </div>
               <div>
                 <p className="text-xs font-bold text-muted-foreground uppercase">WhatsApp Us</p>
-                <p className="font-medium">+258 84 761 5313</p>
+                <p className="font-medium">+258 84 222 9892</p>
               </div>
             </a>
 
             {/* Telefone Link */}
             <a 
-              href="tel:+15855365007"
+              href="tel:+258842229892"
               className="flex items-center gap-4 p-4 liquid-glass-card rounded-2xl border border-white/10 hover:border-gold/50 transition-colors group"
             >
               <div className="p-3 bg-gold/10 rounded-xl group-hover:bg-gold/20 transition-colors">
@@ -149,7 +148,7 @@ export default function ContactPage() {
               </div>
               <div>
                 <p className="text-xs font-bold text-muted-foreground uppercase">Call Us</p>
-                <p className="font-medium">+1 (585) 536-5007</p>
+                <p className="font-medium">+258 84 222 9892</p>
               </div>
             </a>
 
@@ -160,7 +159,7 @@ export default function ContactPage() {
               </div>
               <div>
                 <p className="text-xs font-bold text-muted-foreground uppercase">Our Address</p>
-                <p className="font-medium">56 Ethel Road West Piscataway 08854</p>
+                <p className="font-medium"> Av. do Trabalho, Maputo</p>
               </div>
             </div>
           </div>

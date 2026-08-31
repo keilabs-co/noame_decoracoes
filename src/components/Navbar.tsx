@@ -26,10 +26,10 @@ export default function Navbar() {
 
   const links = [
     { name: "Início", href: "/" },
-    { name: "Sobre Nós", href: "/about" },
     { name: "Serviços", href: "/services" },
-    { name: "Portfólio", href: "/portfolio" },
-    { name: "Testemunhos", href: "/testemunhos" },
+    { name: "Sobre Nós", href: "/about" }
+    //{ name: "Portfólio", href: "/portfolio" },
+    //{ name: "Testemunhos", href: "/testemunhos" },
   ];
 
   // Função auxiliar para alternar o tema, respeitando as preferências do sistema operacional

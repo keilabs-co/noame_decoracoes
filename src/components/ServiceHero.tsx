@@ -19,7 +19,7 @@ export default function ServiceHero({ title, subtitle, videoUrl, imgUrl }: Servi
           loop
           muted
           playsInline
-          className="w-full h-full object-cover lg:hiden"
+          className="w-full h-full object-cover lg:hidden"
         >
           <source src={videoUrl} type="video/mp4" />
           O seu navegador não suporta a tag de vídeo.

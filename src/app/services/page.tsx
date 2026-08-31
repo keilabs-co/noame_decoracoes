@@ -14,19 +14,19 @@ const allServices = [
   {
     title: "Catering",
     description: "Experiências culinárias excepcionais e apresentações de bebidas para todas as ocasiões.",
-    image: "https://res.cloudinary.com/tpwhg02l/image/upload/v1787589796/catering_cover.jpg/media/services/catering/photos/marquee_Images/catering_cover.JPG",
+    image: "https://res.cloudinary.com/tpwhg02l/image/upload/v1787589796/catering_cover.jpg",
     href: "/services/catering"
   },
   {
     title: "Corporativos",
     description: "Design de eventos profissional e focado na marca que deixa uma impressão duradoura.",
-    image: "https://res.cloudinary.com/tpwhg02l/image/upload/v1787589744/corporative_cover.jpg/media/services/corporativos/photos/marquee_Images/corporative_cover.JPG",
+    image: "https://res.cloudinary.com/tpwhg02l/image/upload/v1787589744/corporative_cover.jpg",
     href: "/services/corporativos"
   },
   {
     title: "Festas",
     description: "Encontros sociais vibrantes e dinâmicos projetados para celebrar os marcos da vida.",
-    image: "https://res.cloudinary.com/tpwhg02l/image/upload/v1787589759/image0(1).jpeg",
+    image: "https://res.cloudinary.com/tpwhg02l/image/upload/v1787589762/IMG_1156.jpg",
     href: "/services/festas"
   },
   {

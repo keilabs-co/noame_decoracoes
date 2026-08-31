@@ -19,7 +19,7 @@ export default function Home() {
     { title: "Formações", link: "/services/formacoes", img: "https://res.cloudinary.com/tpwhg02l/image/upload/v1787589695/formacoes_cover.JPG" },
     { title: "Catering", link: "/services/catering", img: "https://res.cloudinary.com/tpwhg02l/image/upload/v1787589796/catering_cover.jpg" },
     { title: "Locação de espaço", link: "/services/locacao", img: "https://res.cloudinary.com/tpwhg02l/image/upload/v1787589716/lococao_cover.JPG" },
-    { title: "Festas particulares", link: "/services/festas", img: "https://res.cloudinary.com/tpwhg02l/image/upload/v1787589759/image0(1).jpeg" },
+    { title: "Festas particulares", link: "/services/festas", img: "https://res.cloudinary.com/tpwhg02l/image/upload/v1787589762/IMG_1156.jpg" },
   ];
 
   const masterpieces = [
@@ -165,7 +165,7 @@ export default function Home() {
       </section>
 
       {/* PORTFOLIO / MASTERPIECES */}
-      <section className="py-24 bg-foreground/5 relative w-full">
+      {/*<section className="py-24 bg-foreground/5 relative w-full">
         <div className="max-w-7xl mx-auto px-6">
           <div className="text-center mb-16">
             <h2 className="text-sm font-bold tracking-[0.2em] uppercase text-gold mb-4">Casamentos e Eventos Reais</h2>
@@ -197,7 +197,7 @@ export default function Home() {
             ))}
           </div>
         </div>
-      </section>
+      </section>*/}
 
       {/* HOW IT WORKS */}
       <section className="py-24 px-6 max-w-7xl mx-auto w-full">
@@ -232,7 +232,8 @@ export default function Home() {
       </section>
 
       {/* TESTIMONIALS */}
-      <section className="py-24 bg-foreground/5 relative w-full overflow-hidden">
+
+      {/*<section className="py-24 bg-foreground/5 relative w-full overflow-hidden">
         <div className="max-w-7xl mx-auto px-6">
           <div className="text-center mb-16">
             <h2 className="text-sm font-bold tracking-[0.2em] uppercase text-gold mb-4">Amor dos Clientes</h2>
@@ -259,7 +260,8 @@ export default function Home() {
                 <p className="text-foreground/80 italic mb-8 relative z-10">&quot;{testi.text}&quot;</p>
                 <div className="flex items-center gap-4 mt-auto">
                   <div className="w-12 h-12 rounded-full bg-foreground/20 overflow-hidden relative">
-                     {/* PLACEHOLDER AVATAR */}
+
+                     {/* PLACEHOLDER AVATAR
                      <Image src={`https://i.pravatar.cc/150?img=${idx + 10}`} alt={testi.name} fill className="object-cover" />
                   </div>
                   <h5 className="font-bold text-sm">{testi.name}</h5>
@@ -268,7 +270,7 @@ export default function Home() {
             ))}
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* WHERE WE CREATE MAGIC (MARQUEE) */}
       <section className="py-16 w-full overflow-hidden border-y border-foreground/10 bg-background">
