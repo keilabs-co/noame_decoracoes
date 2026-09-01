@@ -48,6 +48,18 @@ export default function ContactForm() {
     setMessage(null);
 
     const formData = new FormData(e.currentTarget);
+    
+    // Client-side file size validation
+    const files = formData.getAll("references") as File[];
+    const MAX_FILE_SIZE = 5 * 1024 * 1024; // 5MB
+    for (const file of files) {
+      if (file.size > MAX_FILE_SIZE) {
+        setIsSubmitting(false);
+        setMessage({ type: "error", text: `A imagem ${file.name} excede o limite de 5MB. Por favor, selecione uma imagem menor.` });
+        return;
+      }
+    }
+
     const result = await submitContactForm(formData);
 
     setIsSubmitting(false);

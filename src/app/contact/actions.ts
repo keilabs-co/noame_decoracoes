@@ -29,15 +29,30 @@ export async function submitContactForm(formData: FormData) {
     // Imagens de referência (files)
     const files = formData.getAll("references") as File[];
     const attachments = [];
+    const MAX_FILE_SIZE = 5 * 1024 * 1024; // 5MB
 
     for (const file of files) {
       if (file.size > 0) {
+        if (file.size > MAX_FILE_SIZE) {
+          return { success: false, message: `A imagem ${file.name} excede o limite de 5MB. Por favor, selecione uma imagem menor.` };
+        }
+        
         const buffer = Buffer.from(await file.arrayBuffer());
         attachments.push({
           filename: file.name,
           content: buffer,
         });
       }
+    }
+
+    // Basic required fields validation
+    if (fullName === "N/A" || email === "N/A" || phone === "N/A") {
+       return { success: false, message: "Por favor, preencha todos os campos obrigatórios." };
+    }
+
+    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    if (!emailRegex.test(email.toString())) {
+       return { success: false, message: "Por favor, insira um endereço de e-mail válido." };
     }
 
     console.log("Processando formulário para:", fullName);
